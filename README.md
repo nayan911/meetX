@@ -50,6 +50,11 @@ MeetX is a RESTful API application that allows users to browse activities, regis
    npm run dev
    ```
 
+### Hosted API
+
+The API is also available at the following hosted URL:
+[https://meet-x-three.vercel.app/](https://meet-x-three.vercel.app/)
+
 ## API Endpoints
 
 ### Authentication
