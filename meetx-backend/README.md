@@ -32,7 +32,7 @@ npm install
 3. Configure environment variables
 Create a `.env` file in the root directory with the following variables:
 ```
-PORT=5000
+PORT=3000
 MONGODB_URI=mongodb://localhost:27017/meetx
 JWT_SECRET=yoursecretkey
 JWT_EXPIRE=30d
