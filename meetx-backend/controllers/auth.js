@@ -43,12 +43,9 @@ exports.register = async (req, res) => {
 
     console.log('User created successfully with ID:', user._id);
 
-    const token = user.getSignedJwtToken();
-    console.log('JWT token generated');
-
     res.status(201).json({
       success: true,
-      token
+      message: 'User registered successfully'
     });
   } catch (err) {
     console.error('Error in register function:', err);
