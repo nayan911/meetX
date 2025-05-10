@@ -75,6 +75,11 @@ MeetX is a RESTful API application that allows users to browse activities, regis
 | POST | `/api/bookings` | Book an activity | Private |
 | GET | `/api/bookings/me` | Get all bookings for current user | Private |
 
+## Postman Collection
+
+You can import the complete API collection into Postman using this link:
+[MeetX API Postman Collection](https://drive.google.com/file/d/16ZQtDI2w6-xcl5IoCj9ypPQaYm7bp3NU/view?usp=sharing)
+
 ## Request & Response Examples
 
 ### Register a User
