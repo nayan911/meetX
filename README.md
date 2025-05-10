@@ -35,6 +35,7 @@ MeetX is a RESTful API application that allows users to browse activities, regis
    ```
    cd meetx-backend
    npm install
+   npm uninstall express && npm install express
    ```
 
 3. Create a `.env` file in the meetx-backend directory with the following variables:
